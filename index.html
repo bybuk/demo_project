@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
   </head>
 
@@ -10,7 +12,7 @@
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <div class="container">
       <h1 id="title">Survey Form</h1>
-      <p id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim ea quo consequatur reprehenderit nihil nesciunt eligendi natus laudantium. Nulla inventore quibusdam expedita totam in dolor quaerat nisi quas non nihil.</p>
+      <p id="description">Please fill the survey form</p>
       <div class="form-container">
 
         <form action="" id="survey-form">
@@ -35,15 +37,30 @@
           </select>
         </div>
         <div class="flex">
-          <input type="radio" name="gender" id="male" value="Male">
-          <label for="male">Male</label>
-          <input type="radio" name="gender" id="female" value="Female">
-          <label for="female">Female</label>
+          <p>Select Your Gender</p>
+          <div class="input-group">
+            <input type="radio" name="gender" id="male" value="Male">
+            <label for="male">Male</label>
+          </div>
+          <div class="input-group">
+            <input type="radio" name="gender" id="female" value="Female">
+            <label for="female">Female</label>
+          </div>
         </div>
         <div class="flex">
-          <input type="checkbox" name="options" id="" value="option 1">
-          <input type="checkbox" name="options" id="" value="option 2">
-          <input type="checkbox" name="options" id="" value="option 3">
+          <p>Select Your Preferred Languages</p>
+          <div class="input-group">
+            <input type="checkbox" name="options" id="html" value="html">
+            <label for="html">HTM</label>
+          </div>
+          <div class="input-group">
+            <input type="checkbox" name="options" id="css" value="css">
+            <label for="css">CSS</label>
+          </div>
+          <div class="input-group">
+            <input type="checkbox" name="options" id="js" value="js">
+            <label for="js">JavaScript</label>
+          </div>
         </div>
         <div class="flex">
           <textarea name="comments" id="comments" cols="30" rows="10" placeholder="comments ..."></textarea>
