@@ -80,7 +80,7 @@ textarea {
 
 #submit:hover {
     background: #3495ad;
-    scale: 1.1;
+    
 }
 
 @media (max-width: 768px) {
